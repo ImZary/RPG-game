@@ -76,8 +76,52 @@
         {
             "name": "UI",
             "id": "c7249ec9-4205-44b8-a251-733f8f9854d3",
-            "actions": [],
-            "bindings": []
+            "actions": [
+                {
+                    "name": "Navigation",
+                    "type": "Button",
+                    "id": "7760940c-00cf-418a-b87c-70066f7f76ee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "9992db28-4a43-445e-bbfc-9b3b0ff4f2c3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigation",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "62af9b6c-c9f8-47ab-80ce-0a105cb4593d",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "f4d74bfd-0d55-4a66-bd93-9110e38e8a3d",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
         }
     ],
     "controlSchemes": []
